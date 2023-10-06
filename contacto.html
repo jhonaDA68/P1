@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Panadería Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .contact {
+            color: orange; /* Cambiar el color del texto a naranja */
+        }
+        
+        .contact img {
+            float: right;
+            margin-left: 20px;
+            max-width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        <img src="pp2.png" alt="Image" style="width:50px;height:60px;">
+        <img src="p.png" alt="Image" style="width:50px;height:60px;">
+        
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="about.html">Acerca de nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contact">
+            <img src="kl.gif" alt="Image">
+            <h2>Ubicación</h2>
+            <address>
+                Calle Mapimí No. 135<br>
+                San Juan Tetla<br>
+                C.P. 29143<br>
+                La Casa del Pan
+            </address>
+            
+            <h2>Teléfonos</h2>
+            <p>Teléfono 1: 871-578-1324</p>
+            <p>Teléfono 2: 871-532-1425</p>
+            
+            <h2>Correo Electrónico</h2>
+            <p>Correo: <a href="mailto:lacasadelpan@gmail.com">lacasadelpan@gmail.com</a></p>
+            <p>Quejas y Sugerencias: <a href="mailto:quejasdelpan@outlook.com">quejasdelpan@outlook.com</a></p>
+            
+            <h2>Pedidos y Cotizaciones</h2>
+            <p>Si deseas realizar pedidos o solicitar cotizaciones, por favor utiliza el formulario de contacto a continuación:</p>
+            
+            <!-- Formulario de contacto -->
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Panadería Artesanal</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,204 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    color: orange;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe4f1;
+}
+
+header {
+    background-color: #2e0a50;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #141414;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de fuente */
+body {
+    font-family: 'Cinzel', serif; /* Fuente principal para el cuerpo del documento */
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive; /* Fuente para los títulos principales */
+}
+
+.cart {
+    font-family: 'Kaushan Script', cursive; /* Fuente para el carrito de compras */
+}
+
+/* Estilo para el texto de la sección Acerca de nosotros */
+.about {
+    font-family: 'Cursive Font', cursive;
+    color: rgb(7, 5, 0);
+    text-shadow: 2px 2px 3px #ff9419;
+}
+
+/* Estilo para los títulos de la sección */
+.about h2 {
+    font-family: 'Cursive Font', cursive;
+    color: orange;
+    text-shadow: 2px 2px 3px #000;
+}
+/* Estilo para el texto de la sección Contacto */
+.contact {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a una fuente sans-serif como Arial para un estilo más formal */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilo para los títulos de la sección */
+.contact h2 {
+    font-family: 'Georgia', serif; /* Cambia la fuente a una fuente serif como Georgia para un estilo más formal */
+    color: #555; /* Color de título más oscuro */
+}
+
+/* Estilo para la dirección */
+.contact address {
+    font-style: normal; /* Quita el estilo cursivo para la dirección */
+    margin-bottom: 20px; /* Espacio adicional después de la dirección */
+}
+
+/* Estilo para los párrafos de teléfonos y correos electrónicos */
+.contact p {
+    margin-bottom: 10px; /* Espacio entre párrafos */
+}
+
+/* Estilo para los enlaces de correo electrónico */
+.contact a {
+    color: #007BFF; /* Color de enlaces azul */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre los enlaces */
+}
+
+/* Estilo para el formulario de contacto */
+.contact form {
+    margin-top: 20px; /* Espacio adicional antes del formulario */
+}
+
+.contact form label {
+    display: block; /* Muestra las etiquetas en una línea nueva para una mejor disposición */
+    font-weight: bold; 
+    margin-bottom: 5px; /* Espacio entre etiquetas y campos de entrada */
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%; /* Anchura completa del campo de entrada */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espacio entre campos de entrada */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.contact form input[type="submit"] {
+    background-color: #007BFF; /* Color de fondo azul para el botón de enviar */
+    color: #fff; /* Texto del botón en blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el cursor */
+}
+
+
+/* Estilo para la sección de Productos */
+.products {
+    padding: 20px;
+}
+
+/* Estilo para cada producto individual */
+.product {
+    border: 1px solid #887d99;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #121414;
+    border-radius: 5px;
+}
+
+/* Estilo para productos especiales */
+.product.special {
+    background-color: #ff9900; /* Color de fondo diferente para productos especiales */
+}
+
+/* Estilo para los títulos de los productos */
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para la lista de tamaños */
+.product ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product ul li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo para los enlaces de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
